@@ -7,7 +7,6 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "custom/weather",
         "hyprland/workspaces",
         "cpu",
         "memory",
@@ -19,12 +18,12 @@
     "modules-right": [
         "tray",
         "custom/updates",
-        "custom/language",
         "battery",
         "network",
         "backlight",
         "pulseaudio",
         "pulseaudio#microphone",
+        "custom/weather",
         "clock"
     ],
 
