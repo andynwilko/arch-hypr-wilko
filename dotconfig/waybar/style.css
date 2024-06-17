@@ -59,6 +59,9 @@ tooltip {
 #network,
 #workspaces,
 #tray,
+#cpu,
+#memory,
+#disk,
 #backlight {
     background: #1e1e2e;
     padding: 0px 10px;
@@ -69,13 +72,17 @@ tooltip {
 
 #tray {
     border-radius: 10px;
-    margin-right: 10px;
+}
+
+#cpu,
+#memory,
+#disk {
+    border-radius: 10px;
+    padding: 0px 10px;
 }
 
 #workspaces {
-    background: #1e1e2e;
     border-radius: 10px;
-    margin-left: 10px;
     padding-right: 0px;
     padding-left: 5px;
 }
@@ -109,7 +116,6 @@ tooltip {
 #clock {
     color: #fab387;
     border-radius: 10px 0px 0px 10px;
-    margin-left: 5px;
     border-right: 0px;
 }
 
@@ -130,7 +136,6 @@ tooltip {
     border-radius: 0px 10px 10px 0px;
     border-left: 0px;
     border-right: 0px;
-    margin-right: 5px;
 }
 
 #battery {
